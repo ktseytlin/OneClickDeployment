@@ -32,7 +32,7 @@ def lambda_handler(event, context):
     )
 
 
-    user_data = ('
+    user_data = ("""
         #!/bin/bash
         git clone https://github.com/ktseytlin/OneClickDeployment.git
         cd reactServer
@@ -40,4 +40,4 @@ def lambda_handler(event, context):
         npm install
         # start server
         npm run start
-    ')
+    """)

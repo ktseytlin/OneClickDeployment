@@ -24,7 +24,7 @@ def lambda_handler(event, context):
         ImageId='ami-2051294a', 
         MinCount=1,
         MaxCount=1,
-        KeyName='keren-publicAWS.pem',
+        KeyName='keren-publicAWS',
         UserData=user_data,
         InstanceType='t1.micro',
         EbsOptimized=False,

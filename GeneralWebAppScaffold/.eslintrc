@@ -1,0 +1,5 @@
+// Lints based on rules defined in http://airbnb.io/javascript/
+
+{
+  "extends": "airbnb"
+}

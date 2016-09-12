@@ -20,3 +20,8 @@ Now follow [these instructions (under Deploy Keys)](https://developer.github.com
 * http://blog.teamtreehouse.com/install-node-js-npm-linux
 * http://linuxbrew.sh/
 * https://gist.github.com/iMilnb/df47cd6aea9eeac153ff#file-ec2-py-L129
+
+
+Test running it on AWS with these commands:
+"serve": "webpack-dev-server --content-base dist/ --no-info",
+"dev": "parallelshell 'npm run test:watch' 'npm run serve'"

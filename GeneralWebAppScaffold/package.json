@@ -1,20 +1,20 @@
 {
-  "name": "graphviz-sigma",
+  "name": "OneClickDeployment",
   "version": "1.0.0",
-  "description": "Graph visualition for Athena using Sigma.js",
+  "description": "Deploying a react app onto on EC2",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.kdc.capitalone.com/Athena/graphviz-sigma.git"
+    "url": "https://github.com/ktseytlin/OneClickDeployment.git"
   },
   "keywords": [
-    "Athena",
-    "SigmaJS"
+    "OneClick",
+    "AWS IOT"
   ],
-  "author": "ThatsFunny",
+  "author": "Keren Tseytlin",
   "license": "No License",
   "dependencies": {
     "material-ui": "^0.15.0",
@@ -44,6 +44,8 @@
     "eslint-plugin-jsx-a11y": "^1.2.2",
     "eslint-plugin-react": "^5.1.1",
     "express": "^4.13.4",
+    "expect": "^1.12.2",
+    "expect-jsx": "^2.1.2",
     "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.17.0",
     "image-webpack-loader": "^1.8.0",
